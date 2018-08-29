@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400i");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+html {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px; }
+
+.header {
+  margin-bottom: 43px; }
+  .header span {
+    display: inline-block;
+    padding-left: 3rem;
+    color: #18374b;
+    font-size: 1.4rem; }
+  .header_content {
+    color: #ff621f;
+    font-size: 1.8rem;
+    font-weight: 700; }
+  .header_content1 {
+    color: #020001;
+    font-size: 1.6rem;
+    font-weight: 700; }
+  .header_border_bottom {
+    border-bottom: 1px solid black; }
+  .header_button {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 0;
+    background-color: #ff621f;
+    border-bottom: 5px solid #ff332a;
+    padding: 22px 35px 22px 66px;
+    cursor: pointer;
+    transition: 1s; }
+  .header_button:hover {
+    background-color: #fff;
+    color: #ff621f; }
+
+.afisha_date {
+  background-color: #ff621f; }
+  .afisha_date_month {
+    background-color: #2b2e35;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0; }
+  .afisha_date_time {
+    width: 100%;
+    border-top: 1px dashed white;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: left; }
+  .afisha_date_day {
+    background-color: #ffffff;
+    color: #c2c2c2;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center; }
+  .afisha_date_month1 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  .afisha_date_spicer {
+    margin-top: 10px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-style: italic; }
+  .afisha_date_name {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase; }
+  .afisha_date_menu {
+    color: #FFF;
+    margin-left: 30px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 20px; }
+    .afisha_date_menu li {
+      margin-bottom: 10px; }
+.afisha_time {
+  background-color: #eaeaea; }
+  .afisha_time_lasttime {
+    color: #2b2e35;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; }
+  .afisha_time_content {
+    color: #2b2e35;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0 20px; }
+  .afisha_time_menu {
+    color: #2b2e35;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 20px;
+    padding-bottom: 20px; }
+  .afisha_time li {
+    margin-bottom: 15px;
+    list-style: none;
+    position: relative; }
+  .afisha_time li::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url("../../img/menuitem.png");
+    background-repeat: no-repeat;
+    left: -35px;
+    top: 10px; }
+
+.timer {
+  display: inline-block; }
+  .timer_time {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+    width: 68px;
+    height: 68px;
+    border-radius: 4px;
+    background-color: #2b2e35; }
+  .timer span {
+    color: #2b2e35;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase; }
+
+.format_content {
+  font-family: Times New Roman;
+  color: #2b2e35;
+  font-size: 1.4rem;
+  font-style: italic;
+  text-align: center;
+  padding-left: 25px; }
+
+h4 {
+  display: inline-block;
+  background-color: #ff621f;
+  padding: 10px 30px;
+  color: #FFF; }
+
+.content1 {
+  color: #2b2e35;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 0 60px; }
+
+.border_botton {
+  border-bottom: 1px dashed black; }
+
+.content {
+  background-image: url("../../img/text2.jpg");
+  background-repeat: no-repeat;
+  box-sizing: cover; }
+  .content_item {
+    color: #2b2e35;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: left; }
+
+h6 {
+  margin-top: 30px;
+  color: #2b2e35;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center; }
+
+.img {
+  position: relative;
+  top: -125px;
+  background-image: url("../../img/collage.png");
+  background-repeat: no-repeat;
+  box-sizing: cover;
+  height: 1000px; }
+  .img img {
+    margin-top: 150px; }
+  .img p {
+    padding-left: 10px;
+    margin: 40px 0 50px 0;
+    color: #2b2e35;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: left; }
+  .img span {
+    display: inline-block;
+    color: #2b2e35;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left; }
+  .img button {
+    margin-top: 87px;
+    width: 100%;
+    font-size: 2rem; }
+  .img a {
+    color: #426897;
+    transition: 0.5s; }
+  .img i {
+    font-size: 2rem; }
+
+.color {
+  transition: 0.5s;
+  padding-top: 4px;
+  position: relative;
+  top: -3px;
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  font-size: 1.4rem !important;
+  color: #FFF;
+  background: #426897; }
+
+a:hover {
+  color: blue; }
+
+.color:hover {
+  background: blue; }
+
+/*# sourceMappingURL=style.css.map */
